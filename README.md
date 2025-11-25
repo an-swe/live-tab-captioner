@@ -12,14 +12,6 @@ A Chrome extension that captures active tab audio in real-time and transcribes i
 [![Privacy First](https://img.shields.io/badge/Privacy-First%20🔒-success)]()
 [![Local Processing](https://img.shields.io/badge/Processing-Local%20Only-brightgreen)]()
 
-[TOC]
-### Supported Languages
-
-- English
-- Japanese
-- Chinese
-- Spanish
-
 ### Runtime Environment
 
 - **No external API calls** - All transcription happens locally in the browser
@@ -39,8 +31,10 @@ A Chrome extension that captures active tab audio in real-time and transcribes i
 ## System Workflow
 
 ![](./system-workflow.svg)
+
 <details>
-<summary>View Source Code</summary>
+<summary>Raw Mermaid Source Code</summary>
+
 ```mermaid
 graph TB
     subgraph Browser["🌐 Chrome Browser"]
@@ -79,6 +73,7 @@ graph TB
     style Worker fill:#e8f5e9
     style Sandbox fill:#fce4ec
 ```
+
 </details>
 
 ### Architecture Components
